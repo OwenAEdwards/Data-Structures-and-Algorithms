@@ -2,7 +2,8 @@ import java.util.Arrays;
 
 public class App {
     public static void main(String[] args) throws Exception {
-        compareSortingAlgorithms();
+        //compareSortingAlgorithms();
+        compareSearchingAlgorithms();
     }
 
         public static int[] generateRandomArray(int size, int min, int max) {
