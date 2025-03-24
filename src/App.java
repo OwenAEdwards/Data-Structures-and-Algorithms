@@ -5,16 +5,16 @@ public class App {
         compareSortingAlgorithms();
     }
 
-        public static int[] generateRandomArray(int size, int min, int max) {
+    public static int[] generateRandomArray(int size, int min, int max) {
         java.util.Random random = new java.util.Random();
         int[] array = new int[size];
         for (int i = 0; i < size; i++) {
             array[i] = random.nextInt(max - min + 1) + min;
         }
         return array;
-        }
+    }
 
-        public static void compareSearchingAlgorithms() {
+    public static void compareSearchingAlgorithms() {
         int size = 1000;
         int min = 1;
         int max = 10000;
