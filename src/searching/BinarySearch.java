@@ -2,7 +2,7 @@ package searching;
 
 // Time complexities:
 // Best case: O(1)
-// Worst case: O(log n)
+// Worst case: O(log n) - divide-and-conquer algorithm
 
 // Space complexity:
 // O(1)
