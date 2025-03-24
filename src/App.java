@@ -43,6 +43,8 @@ public class App {
         int[] arr1 = arr.clone();
         int[] arr2 = arr.clone();
         int[] arr3 = arr.clone();
+        int[] arr4 = arr.clone();
+        int[] arr5 = arr.clone();
 
         // Run the sorting algorithms
         sorting.SelectionSort.selectionSort(arr1);
@@ -51,5 +53,9 @@ public class App {
         // System.out.println("Insertion Sort, sorted array: " + java.util.Arrays.toString(arr2));
         sorting.BubbleSort.bubbleSort(arr3);
         // System.out.println("Bubble Sort, sorted array: " + java.util.Arrays.toString(arr3));
+        sorting.MergeSort.mergeSort(arr4);
+        // System.out.println("Merge Sort, sorted array: " + java.util.Arrays.toString(arr4));
+        sorting.QuickSort.quickSort(arr5);
+        // System.out.println("Quick Sort, sorted array: " + java.util.Arrays.toString(arr5));
     }
 }
