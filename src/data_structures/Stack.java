@@ -103,7 +103,7 @@ public class Stack {
     }
   }
 
-  public static void testStack(String[] args) {
+  public static void testStack() {
     Stack stack = new Stack(5);
 
     stack.push(1);

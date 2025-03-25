@@ -2,7 +2,7 @@ import java.util.Arrays;
 
 public class App {
     public static void main(String[] args) throws Exception {
-        compareSortingAlgorithms();
+        compareDataStructures();
     }
 
     public static int[] generateRandomArray(int size, int min, int max) {
@@ -57,5 +57,26 @@ public class App {
         // System.out.println("Merge Sort, sorted array: " + java.util.Arrays.toString(arr4));
         sorting.QuickSort.quickSort(arr5);
         // System.out.println("Quick Sort, sorted array: " + java.util.Arrays.toString(arr5));
+    }
+
+    public static void compareDataStructures() {
+        // Demonstrate Stack
+        System.out.println("Demonstrating Stack:");
+        data_structures.Stack.testStack();
+        System.out.println("\n");
+
+        // Demonstrate Queue
+        System.out.println("Demonstrating Queue:");
+        data_structures.Queue.testQueue();
+        System.out.println("\n");
+
+        // Demonstrate CircularQueue
+        System.out.println("Demonstrating CircularQueue:");
+        data_structures.CircularQueue.testCircularQueue();
+        System.out.println("\n");
+
+        // Demonstrate Deque
+        System.out.println("Demonstrating Deque:");
+        data_structures.Deque.testDeque();
     }
 }

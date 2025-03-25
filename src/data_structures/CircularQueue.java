@@ -92,19 +92,31 @@ public class CircularQueue {
     System.out.println(queue[rear]);
   }
 
-  public static void main(String[] args) {
+  public static void testCircularQueue() {
     CircularQueue queue = new CircularQueue(5);
+
     queue.enqueue(1);
     queue.enqueue(2);
     queue.enqueue(3);
     queue.enqueue(4);
     queue.enqueue(5);
-    queue.display();
+    queue.display(); // Queue elements: 1 2 3 4 5
+
     queue.dequeue();
     queue.dequeue();
-    queue.display();
+    queue.display(); // Queue elements: 3 4 5
+
     queue.enqueue(6);
     queue.enqueue(7);
-    queue.display();
+    queue.display(); // Queue elements: 3 4 5 6 7
+
+    queue.dequeue();
+    queue.dequeue();
+    queue.dequeue();
+    queue.dequeue();
+    queue.dequeue();
+    queue.display(); // Queue is empty
+
+    queue.dequeue(); // Queue is empty
   }
 }

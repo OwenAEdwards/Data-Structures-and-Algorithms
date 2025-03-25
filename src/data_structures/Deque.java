@@ -134,4 +134,26 @@ public class Deque {
     }
     System.out.println(deque[rear]);
   }
+
+  static public void testDeque() {
+    Deque deque = new Deque(5);
+
+    deque.insertFront(1);
+    deque.insertFront(2);
+    deque.insertRear(3);
+    deque.insertRear(4);
+    deque.insertFront(5);
+
+    deque.printDeque(); // 5 2 1 3 4
+
+    System.out.println(deque.deleteFront()); // 5
+    System.out.println(deque.deleteRear()); // 4
+
+    deque.printDeque(); // 2 1 3
+
+    System.out.println(deque.getFront()); // 2
+    System.out.println(deque.getRear()); // 3
+
+    System.out.println(deque.getSize()); // 3
+  }
 }
