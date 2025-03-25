@@ -111,6 +111,7 @@ public class Queue {
     }
 
     // Print the elements of the queue from front to rear
+    System.out.print("Queue elements: ");
     for (int i = front; i <= rear; i++) {
         System.out.print(queue[i] + " ");
       }
