@@ -9,13 +9,23 @@ package searching;
 
 // Example trace (step-by-step):
 // arr = [1, 2, 3, 4, 5], target = 3
-// TODO: Complete trace example
+//        ^ 
+/*       [1, 2, 3, 4, 5]
+ *           ^
+ *       [1, 2, 3, 4, 5]
+ *              ^
+ *              i = 3
+ * We found the target value at index 2 in 3 iterations
+ */
+
 
 // Explanation of algorithm (step-by-step):
-// TODO: Complete explanation
+// A simple algorithm that goes sequentially through the array and determeines if the target value is the value at the current index.
+// If it's not then we go to the next index and repeat the process until we find the target value or we reach the end of the array.
+// This search method is not great for efficiency especially with large arrays but it is simple and easy to implement.
 
 // Real-world applications:
-// TODO: Complete real-world applications
+// 1. Searching for a specific value in an array that is not sorted
 
 public class LinearSearch {
   public static int linearSearch(int[] arr, int target) {
