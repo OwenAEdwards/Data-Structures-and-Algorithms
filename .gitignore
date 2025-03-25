@@ -1,2 +1,11 @@
 bin/
 .vscode/
+src/sorting/SortingUtils.class
+src/sorting/SelectionSort.class
+src/sorting/QuickSort.class
+src/sorting/MergeSort.class
+src/sorting/InsertionSort.class
+src/sorting/BubbleSort.class
+src/searching/LinearSearch.class
+src/searching/BinarySearch.class
+src/App.class
