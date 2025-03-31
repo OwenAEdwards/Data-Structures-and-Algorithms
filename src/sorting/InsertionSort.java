@@ -1,18 +1,19 @@
 package sorting;
 
 // Time complexities:
-// Best case: O(n) - TODO: why/when?
-// Worst case: O(n^2) - TODO: why/when?
+// Best case: O(n) - When the array is sorted already
+// Worst case: O(n^2) - When the array is sorted in reverse order, requires max number of insertions
 
 // Space complexity:
 // O(1)
 
 // Example trace(s) (step-by-step):
 // arr = [5, 3, 2, 4, 1]
-// TODO: Complete trace example
+// 
 
 // Explanation of algorithm (step-by-step):
-// TODO: Complete explanation
+// 1. Start with the second (index 1) element of the array and compare to the next
+// 2. 
 
 // Real-world applications:
 // TODO: Complete real-world applications
